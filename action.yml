@@ -1,0 +1,15 @@
+name 'my first container action'
+description 'A cloud guru' 
+Author 'José Luis Salazar'
+inputs:
+  MyInput:
+    description: 'greeting to use'
+    required: true
+    default: 'Awsome guru'
+outputs:
+  MyOutput:
+    description: 'total memory'
+  runs:
+    using: 'docker'
+    image: 'Dockerfile'
+    
