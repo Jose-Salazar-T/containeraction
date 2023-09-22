@@ -1,5 +1,5 @@
 name 'my first container action'
-description 'A cloud guru' 
+description: 'A cloud guru' 
 Author 'José Luis Salazar'
 inputs:
   MyInput:
